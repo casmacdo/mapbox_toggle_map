@@ -234,7 +234,7 @@
 
 		const popup = new maplibregl.Popup({
 			closeButton: true,
-			closeOnClick: false
+			closeOnClick: true
 		});
 		map.on('mouseenter', 'urban-areas-fill', () => {
 			map.getCanvas().style.cursor = 'pointer';
