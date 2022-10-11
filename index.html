@@ -260,11 +260,11 @@
 			popup.setLngLat(e.lngLat).setHTML(`Neighbourhood Equity Score: ${es}.<br> Census Tract: ${ct}.`).addTo(map);
 		});
 		// Add the navigation control
-		map.addControl(
-			new MaplibreGeocoder(geocoder_api, {
-				maplibregl: maplibregl
-			})
-		);
+		//map.addControl(
+			//new MaplibreGeocoder(geocoder_api, {
+				//maplibregl: maplibregl
+			//})
+		//);
 		map.addControl(new maplibregl.NavigationControl());
 	</script>
 </body>
