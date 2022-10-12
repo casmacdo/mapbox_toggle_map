@@ -1,6 +1,8 @@
 # Maplibre GeoJSON, toggle map
 
-### This repository stores code that produces a map that renders GeoJSON data and allows users to subset data. Here is a live version of the map: https://casmacdo.github.io/maplibre_toggle_map/
+### This repository stores code that produces a map that renders GeoJSON data and allows users to subset data. 
+
+### Here is a live version of the map: https://casmacdo.github.io/maplibre_toggle_map/
 
 ### Below, I describe how site works 😊
 
