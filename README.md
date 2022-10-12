@@ -1,4 +1,4 @@
-# Maplibre GeoJSON, toggle map
+# Maplibre GeoJSON toggle map
 
 ### This repository stores code that produces a map that renders GeoJSON data and allows users to subset data. 
 
