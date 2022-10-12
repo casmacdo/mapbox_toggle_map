@@ -4,7 +4,7 @@
 
 &nbsp;
 
-### Below, I describe how the code that produces the site works 😊
+### Below, I describe how site works 😊
 
 &nbsp;
 
