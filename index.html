@@ -1,17 +1,42 @@
 <!DOCTYPE html>
+	<!--
+		First, I add the html tag, which is the root of the document and the container for all other tags  
+	-->
 <html>
-<head>
+	<!--
+		Then, I add the head tag, which is a container for metadata elements 
+	-->
+<head> 
+	<!-- 
+		Below, I inculde code for the head element. 
+	-->
+	<!-- 
+		The meta tag is used to define metadata features of the document. 
+		Below, I used the meta tag to define the character set and viewport. 
+		The viewport definitiona makes it so the page size is defined by the user's device  
+	-->
 	<meta charset="utf-8">
-	<title>Ottawa Neighbourhood Equity</title>
-	<link rel="icon" href="cocco.jpeg">
 	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-	<script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
-	<script type='text/javascript' src='geocoder.js'></script>
+	<!-- 
+		Here, I add the document title, which appears in places like the user's browser's tab 
+	-->
+	<title>Ottawa Neighbourhood Equity</title> 
+	<!-- 
+		Below, I include the javascript scripts that the website uses
+	-->
+	<!-- 
+		This script tag loads the maplibre library from the maplibre CDN.
+		Here is a link to the maplibre documentation: https://maplibre.org/maplibre-gl-js-docs/api/
+	-->
 	<script src='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js'></script>
-	<script src="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.2.0/dist/maplibre-gl-geocoder.min.js"></script>
-	<link rel="stylesheet" href="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.2.0/dist/maplibre-gl-geocoder.css" type="text/css" />
 	<link href='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css' rel='stylesheet' />
+	<link rel="icon" href="cocco.jpeg">
 	<link rel="stylesheet" href="style.css">
+	<!-- <script src="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.2.0/dist/maplibre-gl-geocoder.min.js"></script> -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script> -->
+	<!-- <script type='text/javascript' src='geocoder.js'></script> -->
+	<!-- <link rel="stylesheet" href="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.2.0/dist/maplibre-gl-geocoder.css" type="text/css" /> -->
+
 </head>
 <body>
 	<div id="map"></div>
