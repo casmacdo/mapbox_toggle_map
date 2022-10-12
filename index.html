@@ -25,13 +25,30 @@
 		Below, I include the javascript scripts that the website uses
 	-->
 	<!-- 
-		This script tag loads the maplibre library from the maplibre CDN.
+		The script tag loads the maplibre library from the maplibre CDN.
 		Here is a link to the maplibre documentation: https://maplibre.org/maplibre-gl-js-docs/api/
 	-->
 	<script src='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js'></script>
+	<!-- 
+		The link tags are used to bring in elements like cascading style sheets (css) and favicons. 
+		The maplibre style sheet defines styles for the map elements. 
+		style.css defines styles for elements that I wrote. 
+		With css, it is important to remember the order in which we define styles. 
+		Links, or rules that we define later override rules that we had defined earlier.
+	 -->
 	<link href='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css' rel='stylesheet' />
-	<link rel="icon" href="cocco.jpeg">
+	<!-- 
+		This is the style sheet that I created. You can find it in the same folder as index.html
+	 -->
 	<link rel="stylesheet" href="style.css">
+	<!-- 
+		Here is the link to the picture of my dog for the favicon 🐶.
+	 -->
+	<link rel="icon" href="cocco.jpeg">
+	<!-- 
+		Below, I have commented out the scripts and links that the document does not currently use. 
+		I had included a geocoder and some GIS stuff at one point, but the geocoder was a bit sketchy and it turned out that I didn't need the GIS stuff from turf.js.
+	 -->
 	<!-- <script src="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.2.0/dist/maplibre-gl-geocoder.min.js"></script> -->
 	<!-- <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script> -->
 	<!-- <script type='text/javascript' src='geocoder.js'></script> -->
