@@ -15,16 +15,15 @@ body {
     Display changes how the div is displayed. In this case, table makes it so the 
     inner elements determine the size of the outer div: map-overlay
     */
-    display: table; 
-    top: 0;
-    left: 0;
-    padding: 10px;
+    top: 25px;
+    left: 25px;
+    padding: 10px; 
+    resize: both;
+    overflow: scroll;
+    background-color: rgba(0, 0, 0, 0.17);
+
 }
 .map-overlay .map-overlay-inner {
-    background-color: rgba(0, 0, 0, 0.17);
-    box-shadow: 0 1px 2px rgba(59, 27, 27, 0.1);
-    border-radius: 3px;
-    padding: 10px;
     color: white;
     text-shadow: 0px 0px 5px black;
     margin-bottom: 10px;
@@ -34,6 +33,7 @@ body {
     border: none;
     padding: 10;
     margin: 0 0 10px;
+
 }
 
 .map-overlay-inner fieldset:last-child {
@@ -42,6 +42,7 @@ body {
 
 .map-overlay-inner select {
     width: 100%;
+   
 }
 
 .map-overlay-inner label {
@@ -60,6 +61,7 @@ body {
 
 .map-overlay-inner button:focus {
     outline: none;
+
 }
 
 .map-overlay-inner button:hover {
@@ -68,9 +70,13 @@ body {
 
 
 #mydivheader {
-    padding: 10px;
+
     cursor: move;
-    z-index: 10000;
-    background-color: #2196F3;
-    color: #fff;
+
+
+  }
+  .resizable {
+    resize: both;
+    overflow: scroll;
+    border: 1px solid black;
   }
