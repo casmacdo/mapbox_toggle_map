@@ -11,7 +11,11 @@ body {
 .map-overlay {
     font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     position: absolute;
-    width: 250px;
+    /* 
+    Display changes how the div is displayed. In this case, table makes it so the 
+    inner elements determine the size of the outer div: map-overlay
+    */
+    display: table; 
     top: 0;
     left: 0;
     padding: 10px;
