@@ -36,6 +36,7 @@
 		With css, it is important to remember the order in which we define styles. 
 		Links, or rules that we define later override rules that we had defined earlier.
 	 -->
+	<script type='text/javascript' src='functions.js'></script>
 	<link href='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css' rel='stylesheet' />
 	<!-- 
 		This is the style sheet that I created. You can find it in the same folder as index.html
@@ -64,7 +65,9 @@
 		a good approach might include downloading the css from that link, saving it in the folder that contains this file, and editing it from there.
 	-->
 	<div id="map"></div> 
-	<div class="map-overlay top">
+
+	
+	<div id="mydiv" class="map-overlay top">
 		<div class="map-overlay-inner">
 			<form name="area_form">
 				<fieldset>
@@ -93,6 +96,7 @@
 		</div>
 	</div>
 	<script>
+		dragMenu()
 		var geocoder_api = geocoder_api
 		const style = {
 			"version": 8,
