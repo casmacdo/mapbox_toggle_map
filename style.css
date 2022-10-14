@@ -67,4 +67,10 @@ body {
 }
 
 
-
+#mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10000;
+    background-color: #2196F3;
+    color: #fff;
+  }

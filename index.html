@@ -37,6 +37,7 @@
 		Links, or rules that we define later override rules that we had defined earlier.
 	 -->
 	<script type='text/javascript' src='functions.js'></script>
+
 	<link href='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css' rel='stylesheet' />
 	<!-- 
 		This is the style sheet that I created. You can find it in the same folder as index.html
@@ -65,9 +66,9 @@
 		a good approach might include downloading the css from that link, saving it in the folder that contains this file, and editing it from there.
 	-->
 	<div id="map"></div> 
-
 	
 	<div id="mydiv" class="map-overlay top">
+		<div id="mydivheader"> Click here to move</div>
 		<div class="map-overlay-inner">
 			<form name="area_form">
 				<fieldset>
@@ -77,8 +78,9 @@
 						<option value="Urban">Urban</option>
 						<option value="Rural">Rural</option>
 					</select>
+				</fieldset>
 			</form>
-			</fieldset>
+			
 			<fieldset>
 				<form name="scenario_form">
 					<label>Select Scenario</label>
@@ -96,7 +98,7 @@
 		</div>
 	</div>
 	<script>
-		dragMenu()
+		dragMenu();
 		var geocoder_api = geocoder_api
 		const style = {
 			"version": 8,
@@ -243,6 +245,7 @@
 			//})
 		//);
 		map.addControl(new maplibregl.NavigationControl());
+		
 	</script>
 </body>
 </html>
