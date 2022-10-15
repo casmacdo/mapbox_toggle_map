@@ -2,11 +2,7 @@
 
 ### This repository stores code that produces a map that renders GeoJSON data and allows users to subset data. Here is a live version of the map: <https://casmacdo.github.io/maplibre_toggle_map/>
 
-<br>
-
 ### Below, I describe how site works 😊
-
-<br>
 
 The webpage uses Javascript, HTML, and CSS. In this repository, I've stored the files that produce the website.
 
