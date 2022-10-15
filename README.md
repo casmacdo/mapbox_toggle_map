@@ -2,7 +2,7 @@
 
 ### This repository stores code that produces a map that renders GeoJSON data and allows users to subset data. Here is a live version of the map: <https://casmacdo.github.io/maplibre_toggle_map/>
 
-### Below, I describe how site works 😊
+### Below, I describe how site works
 
 The webpage uses Javascript, HTML, and CSS. In this repository, I've stored the files that produce the website.
 
@@ -27,6 +27,6 @@ Below, I list and describe the folders and files shown above.
 6. index.html
     - The html file that the browser renders. This file defines how the website works and looks.
 7. README.md
-    - The markdown file that you are currently reading 😊
+    - The markdown file that you are currently reading
 
 More info to come...
