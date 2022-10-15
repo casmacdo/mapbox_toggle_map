@@ -13,7 +13,3 @@ I've organized the files into folders by type, and the website's main html file 
 index.html is the html file that user's browsers render, style.css is the cascading style sheet document that defines styles for html features that I created, ott.geojson is the equity data that I downloaded from the Ottawa open data portal and is displayed on the map, cocco.jpeg is an image of my dog 🐶 that I used for the favicon, geocoder.js is a javascript file that I used for a geocoder that is not currently included in the live site, and .gitignore is a file that tells git which files to not include in commits, pushes, etc. For example, if cocco.jpeg were listed in .gitignore, this picture would not be included in git commits or sent to github.
 
 More info to come...
-
-```
-
-```
