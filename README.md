@@ -1,15 +1,36 @@
 # Maplibre GeoJSON toggle map
 
-## This repository stores code that produces a map that renders GeoJSON data and allows users to subset data
+### This repository stores code that produces a map that renders GeoJSON data and allows users to subset data. Here is a live version of the map: <https://casmacdo.github.io/maplibre_toggle_map/>
 
-### Here is a live version of the map: <https://casmacdo.github.io/maplibre_toggle_map/>
+<br>
 
 ### Below, I describe how site works 😊
+
+<br>
 
 The webpage uses Javascript, HTML, and CSS. In this repository, I've stored the files that produce the website.
 
 I've organized the files into folders by type, and the website's main html file is in the root folder.
 
-index.html is the html file that user's browsers render, style.css is the cascading style sheet document that defines styles for html features that I created, ott.geojson is the equity data that I downloaded from the Ottawa open data portal and is displayed on the map, cocco.jpeg is an image of my dog 🐶 that I used for the favicon, geocoder.js is a javascript file that I used for a geocoder that is not currently included in the live site, and .gitignore is a file that tells git which files to not include in commits, pushes, etc. For example, if cocco.jpeg were listed in .gitignore, this picture would not be included in git commits or sent to github.
+<p align="center" >
+  <img alt="Repo Structure" src="assets/repo_struct.png" >
+</p>
+
+Below, I list and describe the folders and files shown above.
+
+1. assets
+    - A Folder containing media files to produce the site like the favicon 🐶.
+2. css
+    - A folder containg css files
+3. data
+    - A folder containg GeoJSON equity data for the map
+4. javascript
+    - A folder containing javascript functions that help produce the site
+5. .gitignore
+    - A file that defines which files or folders git should ignore. For example, files in this folder will not be uploaded to github.
+6. index.html
+    - The html file that the browser renders. This file defines how the website works and looks.
+7. README.md
+    - The markdown file that you are currently reading 😊
 
 More info to come...
