@@ -36,24 +36,24 @@
 		With css, it is important to remember the order in which we define styles. 
 		Links, or rules that we define later override rules that we had defined earlier.
 	 -->
-	<script type='text/javascript' src='functions.js'></script>
+	<script type='text/javascript' src='javascript/functions.js'></script>
 
 	<link href='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css' rel='stylesheet' />
 	<!-- 
 		This is the style sheet that I created. You can find it in the same folder as index.html
 	 -->
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<!-- 
 		Here is the link to the picture of my dog for the favicon 🐶.
 	 -->
-	<link rel="icon" href="cocco.jpeg">
+	<link rel="icon" href="assets/cocco.jpeg">
 	<!-- 
 		Below, I have commented out the scripts and links that the document does not currently use. 
 		I had included a geocoder and some GIS stuff at one point, but the geocoder was a bit sketchy and it turned out that I didn't need the GIS stuff from turf.js.
 	 -->
 	<!-- <script src="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.2.0/dist/maplibre-gl-geocoder.min.js"></script> -->
 	<!-- <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script> -->
-	<!-- <script type='text/javascript' src='geocoder.js'></script> -->
+	<!-- <script type='text/javascript' src='javascript/geocoder.js'></script> -->
 	<!-- <link rel="stylesheet" href="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.2.0/dist/maplibre-gl-geocoder.css" type="text/css" /> -->
 </head>
 <!-- 
@@ -66,7 +66,6 @@
 		a good approach might include downloading the css from that link, saving it in the folder that contains this file, and editing it from there.
 	-->
 	<div id="map"></div> 
-	
 	<div id="mydiv" class="map-overlay top">
 		<div id="mydivheader" >
 		<div class="map-overlay-inner">
@@ -81,7 +80,6 @@
 					</select>
 				</fieldset>
 			</form>
-
 			<fieldset>
 				<form name="scenario_form">
 					<label>Select Scenario</label>
@@ -180,7 +178,7 @@
 			colour = display_scenario_value()
 			map.addSource('urban-areas', {
 				'type': 'geojson',
-				'data': 'ott.geojson'
+				'data': 'data/ott.geojson'
 			});
 			map.addLayer(
 				{
