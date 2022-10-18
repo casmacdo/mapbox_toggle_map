@@ -17,12 +17,12 @@ body {
     */
     top: 25px;
     left: 25px;
-    padding: 10px; 
     resize: both;
+    padding: 10px; 
     overflow: scroll;
     background-color: rgba(0, 0, 0, 0.17);
-    height: 25%;
     width: 15%;
+    height: 25%;
 }
 .map-overlay .map-overlay-inner {
     color: white;
@@ -34,7 +34,6 @@ body {
     border: none;
     padding: 10;
     margin: 0 0 10px;
-
 }
 
 .map-overlay-inner fieldset:last-child {
