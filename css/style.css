@@ -18,12 +18,10 @@ body {
     top: 25px;
     left: 25px;
     padding: 10px; 
-    resize: both;
     overflow: scroll;
     background-color: rgba(0, 0, 0, 0.17);
-    max-width: 25%;
+    max-width: 15%;
     max-height: 25%;
-
 }
 .map-overlay .map-overlay-inner {
     color: white;
