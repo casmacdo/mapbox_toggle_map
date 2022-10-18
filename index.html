@@ -198,7 +198,8 @@
 					}
 				},
 			);
-			reset_filter();
+			// reset filter on map load so the UI corrisponds with the displayed data
+			reset_filter(); 
 		});
 
 		document.getElementById('area').addEventListener('input', (event) => {
