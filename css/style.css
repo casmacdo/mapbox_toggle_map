@@ -21,6 +21,7 @@ body {
     resize: both;
     overflow: scroll;
     background-color: rgba(0, 0, 0, 0.17);
+    max-width: 10%;
 
 }
 .map-overlay .map-overlay-inner {
