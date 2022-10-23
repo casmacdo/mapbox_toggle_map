@@ -1,4 +1,4 @@
-# Maplibre GeoJSON toggle map
+# MapLibre GeoJSON toggle map
 
 ### This repository stores code that produces a map that renders GeoJSON data and allows users to subset data. Here is a live version of the map: <https://casmacdo.github.io/maplibre_toggle_map/>
 
@@ -34,11 +34,11 @@ The most important file in this repository is index.html.
 Beyond defining the webpage's structure, it compels the browser to load the remote JavaScript files that the browser uses to produce the map.
 
 ```html
-<!-- below is the script tag that tells the browser to load the maplibregl JavaScript files  -->
+<!-- below is the script tag that tells the browser to load the MapLibre JavaScript files  -->
 <script src='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js'></script> 
 
 ```
 
-In effect, this script tag loads the maplibre JavaScript files from a server and stores them in the user's browser. If one wanted to not include remote resources in their code, they could download the source files before publishing the website and store them in the website's directory.
+In effect, this script tag loads the MapLibre JavaScript files from a server and stores them in the user's browser. If one wanted to not include remote resources in their code, they could download the source files before publishing the website and store them in the website's directory.
 
 More info to come...
